@@ -11,7 +11,7 @@ const Prodedure = () => {
 
   return (
     <Wrapper>
-      <div className=" flex flex-col  justify-center items-center mt-[20vh] relative">
+      <div className=" flex flex-col  justify-center items-center mt-[20vh] relative" id="education">
         <h1 className="mb-[10vh] font-montserrat font-bold text-2xl">
           How we Work
         </h1>

@@ -4,7 +4,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import {Navbar, Footer} from "./Components" ;
+import {Navbar,Footer} from "./Components" ;
 import {Homepage , SearchMap} from "./Pages" ;
 import State from './context/State';
 

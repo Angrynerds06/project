@@ -50,11 +50,17 @@ const Navbar = () => {
               className="font-semibold font-montserrat  hover:text-[#ff5757] cursor-pointer nav"
               onClick={()=>document.getElementById("education").scrollIntoView({behavior:"smooth"})}
             >
-              <a>About</a>
+              <a>Education</a>
+            </li>
+            <li
+              className="font-semibold font-montserrat  hover:text-[#ff5757] cursor-pointer nav"
+              onClick={()=>document.getElementById("services").scrollIntoView({behavior:"smooth"})}
+            >
+              <a>Services</a>
             </li>
             <li
               className="font-semibold font-montserrat hover:text-[#ff5757] cursor-pointer nav"
-              onClick={()=>document.getElementById("Contact").scrollIntoView({behavior:"smooth"})}
+              onClick={()=>document.getElementById("contact").scrollIntoView({behavior:"smooth"})}
             >
               <a>Contact</a>
             </li>
